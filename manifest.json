@@ -7,7 +7,10 @@
     "content_scripts": [
         {
             "matches" : ["https://*.esa.io/posts/*"],
-            "js" : ["jquery-3.1.1.min.js", "content.js"]
+            "js" : [
+                "jquery-3.1.1.min.js",
+                "content.js"
+            ]
         }
     ]
 }
